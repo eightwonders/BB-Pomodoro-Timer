@@ -24,7 +24,7 @@ const Timer: React.FC<TimerProps> = ({ workMinutes, breakMinutes }) => {
     if (!running) {
       setSecondsLeft(mode === 'work' ? workMinutes * 60 : breakMinutes * 60)
     }
-  }, [workMinutes, breakMinutes, mode, running])
+  }, [workMinutes, breakMinutes, mode])
 
   useEffect(() => {
     if (running) {
