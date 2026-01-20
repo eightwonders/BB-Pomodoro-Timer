@@ -13,12 +13,18 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0",
-    "typescript": "^5.1.6",
-    "vite": "^5.0.0",
+    "@types/babel__core": "^7.20.5",
+    "@types/babel__generator": "^7.27.0",
+    "@types/babel__template": "^7.4.4",
+    "@types/babel__traverse": "^7.28.0",
+    "@types/estree": "^1.0.8",
+    "@types/prop-types": "^15.7.15",
+    "@types/react": "^18.3.27",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.0.0",
     "eslint": "^8.47.0",
     "eslint-plugin-react": "^7.33.2",
-    "@vitejs/plugin-react": "^4.0.0"
+    "typescript": "^5.1.6",
+    "vite": "^5.0.0"
   }
 }
